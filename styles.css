@@ -1,9 +1,45 @@
-.multi-step-form {}
+* {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
 
-.main-navigasjon {}
+
+body {
+  background-color: gainsboro;
+}
+
+ol {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.multi-step-form {
+  display: flex;
+  border: solid;
+  background-color: white;
+  padding: 10px;
+}
+
+.main-navigasjon {
+  background-color: cornflowerblue;
+  min-width: 60px;
+  padding: 10px;
+}
 
 .choice-box {}
 
-.navgation {}
+.navgation {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
 
-.current-step {}
+.step {
+  display: none;
+}
+
+.current-step {
+  display: unset;
+}
