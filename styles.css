@@ -23,34 +23,20 @@ ol {
 /* Multi Stage Form Styling */
 .multi-step-form {
   display: flex;
-  border: solid white;
-  border-radius: 10px;
   background-color: white;
+  max-width: 600px;
   padding: 10px;
-  max-width: fit-content;
-  box-shadow: 1px 16px 21px 0px rgba(0,0,0,0.2);
-  -webkit-box-shadow: 1px 16px 21px 0px rgba(0,0,0,0.2);
-  -moz-box-shadow: 1px 16px 21px 0px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  -webkit-box-shadow: 6px 10px 65px -19px rgba(0,0,0,0.2);
+  -moz-box-shadow: 6px 10px 65px -19px rgba(0,0,0,0.2);
+  box-shadow: 6px 10px 65px -19px rgba(0,0,0,0.2);
 }
 
-.main-navigasjon {
-  background-color: cornflowerblue;
-  min-width: 60px;
-  padding: 10px;
+.menu-left {
+  background-image: url("assets/images/bg-sidebar-desktop.svg");
+  width: 200px;
 }
 
-.choice-box {}
-
-.navgation {
-  display: flex;
-  justify-content: space-between;
-  padding: 0px 20px;
-}
-
-.step {
-  display: none;
-}
-
-.current-step {
-  display: unset;
+.choice-box {
+  background-color: rgb(211, 188, 188);
 }
