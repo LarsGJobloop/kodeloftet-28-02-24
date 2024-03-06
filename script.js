@@ -12,3 +12,7 @@ function setStage(newStage) {
     const newClass = "current-form-" + newStage
     form.classList.add(newClass)
 }
+
+function submitForm() {
+    console.log("Submitting form")
+}
