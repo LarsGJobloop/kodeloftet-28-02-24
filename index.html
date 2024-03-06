@@ -6,7 +6,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width" />
   <link rel="stylesheet" href="styles.css" />
-  <script type="module" src="script.js"></script>
+  <script src="script.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
@@ -15,7 +15,7 @@
 
 <body>
 
-  <section class="multi-step-form current-form-1">
+  <section id="multi-step-form" class="multi-step-form current-form-1">
     <div class="menu-left">
       <ol>
         <li class="menu-item item-1">
@@ -80,7 +80,7 @@
       </div>
 
       <div>
-        <button>Next Step</button>
+        <button onclick="setStage(2)">Next Step</button>
       </div>
     </div>
 
@@ -109,8 +109,8 @@
       </div>
 
       <div class="form-navigation">
-        <button>Go Back</button>
-        <button>Next Step</button>
+        <button onclick="setStage(1)">Go Back</button>
+        <button onclick="setStage(3)">Next Step</button>
       </div>
     </div>
 
@@ -147,11 +147,11 @@
             </label>
           </div>
         </div>
+      </div>
 
-        <div class="form-navigation">
-          <button>Go Back</button>
-          <button>Next Step</button>
-        </div>
+      <div class="form-navigation">
+        <button onclick="setStage(2)">Go Back</button>
+        <button onclick="setStage(4)">Next Step</button>
       </div>
     </div>
 
