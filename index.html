@@ -15,10 +15,10 @@
 
 <body>
 
-  <section class="multi-step-form">
+  <section class="multi-step-form current-form-1">
     <div class="menu-left">
       <ol>
-        <li class="menu-item menu-item-current">
+        <li class="menu-item item-1">
           <p>1</p>
 
           <div class="menu-text">
@@ -27,7 +27,7 @@
           </div>
         </li>
 
-        <li class="menu-item">
+        <li class="menu-item item-2">
           <p>2</p>
 
           <div class="menu-text">
@@ -36,7 +36,7 @@
           </div>
         </li>
 
-        <li class="menu-item">
+        <li class="menu-item item-3">
           <p>3</p>
 
           <div class="menu-text">
@@ -45,7 +45,7 @@
           </div>
         </li>
 
-        <li class="menu-item">
+        <li class="menu-item item-4">
           <p>4</p>
 
           <div class="menu-text">
@@ -56,7 +56,7 @@
       </ol>
     </div>
 
-    <div class="choice-box current-stage">
+    <div class="choice-box stage-1">
       <div>
         <h1>Personal Info</h1>
         <p>Please provide your name, email address and phone number</p>
@@ -83,6 +83,78 @@
         <button>Next Step</button>
       </div>
     </div>
+
+    <div class="choice-box stage-2">
+      <div>
+        <h1>Select Plan</h1>
+        <p>You have the option of monthly or yearly billing</p>
+
+        <div class="input-fields-plan">
+          <button>
+            <img src="assets/images/icon-arcade.svg" alt="">
+            <p class="bold">Arcade</p>
+            <p class="text-description">$9/mo</p>
+          </button>
+          <button>
+            <img src="assets/images/icon-advanced.svg" alt="">
+            <p class="bold">Advanced</p>
+            <p class="text-description">$12/mo</p>
+          </button>
+          <button>
+            <img src="assets/images/icon-pro.svg" alt="">
+            <p class="bold">Pro</p>
+            <p class="text-description">$15/mo</p>
+          </button>
+        </div>
+      </div>
+
+      <div class="form-navigation">
+        <button>Go Back</button>
+        <button>Next Step</button>
+      </div>
+    </div>
+
+    <div class="choice-box stage-3">
+      <div>
+        <h1>Pick Add-ons</h1>
+        <p>Add-ons help you enhance your gaming experience</p>
+
+        <div class="input-fields-plan">
+          <div>
+            <input type="checkbox" id="online-service" name="online-service" />
+            <label for="online-service">
+              <p class="bold">Online Service</p>
+              <p class="text-description">Acccess to multiplayer games</p>
+              <p>+10$/yr</p>
+            </label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="horns" name="horns" />
+            <label for="horns">
+              <p class="bold">Extra Storage</p>
+              <p class="text-description">Extra 1TB of cloud save</p>
+              <p>+20$/yr</p>
+            </label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="horns" name="horns" />
+            <label for="horns">
+              <p class="bold">Customizable Profile</p>
+              <p class="text-description">Custom theme on your profile</p>
+              <p>+20$/yr</p>
+            </label>
+          </div>
+        </div>
+
+        <div class="form-navigation">
+          <button>Go Back</button>
+          <button>Next Step</button>
+        </div>
+      </div>
+    </div>
+
   </section>
 
 </body>

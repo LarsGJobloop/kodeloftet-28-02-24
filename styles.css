@@ -21,7 +21,7 @@ ol {
 }
 
 /* Multi Stage Form Styling */
-.multi-step-form {
+/* .multi-step-form {
   animation: rotate 10s linear infinite;
 }
 
@@ -32,6 +32,42 @@ ol {
   to {
     transform: rotate3d(0.5, -0.5, 0.5, 35deg);
   }
+} */
+
+.current-form-1 .menu-item.item-1 > p {
+  background-color: cornflowerblue;
+  color: black;
+  border-color: cornflowerblue;
+}
+.current-form-1 .choice-box.stage-1 {
+  display: flex;
+}
+
+.current-form-2 .menu-item.item-2 > p {
+  background-color: cornflowerblue;
+  color: black;
+  border-color: cornflowerblue;
+}
+.current-form-2 .choice-box.stage-2 {
+  display: flex;
+}
+
+.current-form-3 .menu-item.item-3 > p {
+  background-color: cornflowerblue;
+  color: black;
+  border-color: cornflowerblue;
+}
+.current-form-3 .choice-box.stage-3 {
+  display: flex;
+}
+
+.current-form-4 .menu-item.item-4 > p {
+  background-color: cornflowerblue;
+  color: black;
+  border-color: cornflowerblue;
+}
+.current-form-4 .choice-box.stage-4 {
+  display: flex;
 }
 
 .multi-step-form {
@@ -69,12 +105,6 @@ ol {
   align-items: center;
 }
 
-.menu-item-current > p {
-  background-color: cornflowerblue;
-  color: black;
-  border-color: cornflowerblue;
-}
-
 .menu-text > p {
   margin: 0px;
 }
@@ -91,7 +121,7 @@ ol {
 
 .choice-box {
   padding: 10px 20px;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -118,6 +148,55 @@ ol {
   flex-direction: column;
 }
 
-.current-stage {
+.input-fields-plan {
   display: flex;
+  justify-content: space-between;
+}
+
+.input-fields-plan > button {
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+  border-radius: 4px;
+  background-color: white;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-fields-plan > button > img {
+  width: 24px;
+}
+
+.input-fields-plan > button > p {
+  margin: 0px;
+}
+
+.form-navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-navigation > button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.form-navigation > button:hover {
+  border-color: yellowgreen;
+}
+
+/*
+Hjelpe Klasser / Utility classes
+*/
+.bold {
+  font-weight: bold;
+}
+
+.text-description {
+  color: rgb(132, 132, 132);
+}
+
+.underline {
+  text-decoration: underline;
 }
